@@ -6,7 +6,7 @@ libHOG is a library that computes [Histogram of Oriented Gradient](https://en.wi
 
 |                 | Frame Rate  | Speedup | Energy per frame (Joules)|
 | :------------- |:-------------:| :-----:| :-----:|
-| [voc-release5][1] | 2.44fps | 1.0x | 57.4 J/frame |
+| [voc-release5][1] | 2.44 fps | 1.0x | 57.4 J/frame |
 | [Dollar][2]       | 5.88 fps | 2.4x | 26.4 J/frame |
 | [FFLD-serial][3] | 4.59 fps | 1.9x | 29.9 J/frame |
 | [FFLD-OpenMP][3] | 19.6 fps | 8.0x | 9.44 J/frame | 
