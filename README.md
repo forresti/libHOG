@@ -10,7 +10,7 @@ libHOG is a library that computes [Histogram of Oriented Gradient](https://en.wi
 | [Dollar][2]       | 5.88 fps | 2.4x | 26.4 J/frame |
 | [FFLD-serial][3] | 4.59 fps | 1.9x | 29.9 J/frame |
 | [FFLD-OpenMP][3] | 19.6 fps | 8.0x | 9.44 J/frame | 
-| libHOG (this codebase) | **58.8 fps** | **24.0x** | **3.15 J/frame** |
+| libHOG (this codebase) | **58.8 fps** | **24.1x** | **3.15 J/frame** |
 
 The output of libHOG is numerically equivalent to the HOG features in the Deformable Model Parts model ([voc-release5][1]) codebase, with a 24x speedup. For further speedups (over 70fps), we also offer the option to use L1-norm (instead of the traditional L2-norm) when calculating the gradients. If you find libHOG useful, please consider citing the [libHOG paper](http://forrestiandola.com/publications/libHOG_ITSC15.pdf):
 
