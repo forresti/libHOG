@@ -2,7 +2,7 @@
 
 ## About
 
-libHOG is a library that computes [Histogram of Oriented Gradient](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) features. The benefit of libHOG over other HOG implementations is speed. On an Intel i7-3930k 6-core CPU, we measured the following results:
+libHOG is a library that computes [Histogram of Oriented Gradient](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) feature pyramids. The benefit of libHOG over other HOG implementations is speed. On an Intel i7-3930k 6-core CPU, we measured the following results:
 
 |                 | Frame Rate  | Speedup | Energy per frame (Joules)|
 | :------------- |:-------------:| :-----:| :-----:|
